@@ -14,7 +14,7 @@
 <body>
     <div id="app">
         <section class="todo-wrapper">
-            <h1 class="todo-title">Tus tareas</h1>
+            <!-- <h1 class="todo-title">Tus tareas</h1> -->
             <form @keydown.enter.prevent="">
                 <input type="text" class="input-todo" v-bind:class="{ active: new_todo }"
                     placeholder="Take the garbage out" v-model="new_todo" v-on:keyup.enter="addItem">
