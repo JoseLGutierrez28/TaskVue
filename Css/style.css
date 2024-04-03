@@ -7,13 +7,15 @@
 
 body {
     font-size: 15px;
-    color: #444;
-    background-image: radial-gradient(circle, #0d1a53 6%, #030224 96%);
+    /* background-image: radial-gradient(circle, #0d1a53 6%, #030224 96%); */
     padding: 50px 20px;
     margin: 0;
     min-height: 100vh;
-    /* position: relative; */
     color: black;
+    background-image: url("../Img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .todo-wrapper {
@@ -70,7 +72,6 @@ input:focus {
 
 input::placeholder {
     color: rgba(0, 0, 0, 0.3);
-    /* font-style: italic; */
 }
 
 .btn {
@@ -154,12 +155,7 @@ ul.todo-list li {
     margin: 10px 0;
     background: #cdddf6;
     border-radius: 3px;
-    padding-left: 38px;
-    /* custom checkbox width + 16 */
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 49px;
-    /* delete button + 5 */
+    padding: 12px 49px 12px 38px;
     overflow: hidden;
 }
 
